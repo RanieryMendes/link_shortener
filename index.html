@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Enshorter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type= "text/css" href="style.css">
+    <link rel="icon" href="./link_icon.svg">
+   
+    
+</head>
+<body class="bg-warning text-light">
+
+
+    <div class="container justify-content-center bg-success rounded">
+    <h1  class="display-4 bg-success text-light text-center rounded p2 m-2">Make big problems become small links</h1>
+    <p class="ml-5 p-3">... Just type in the giant link and we will shorten it to and for you</p>
+    </div>
+
+    <div class="container p-5 ">
+
+        <div class=" position-absolute p-1">
+            <img  class="float-left" src="./laptop.png">
+        </div>
+
+        
+    
+        <div class=" position-relative container d-flex flex-column text-light justify-content-center" style="max-width: 400px;">
+         
+           
+      
+            <label name="link" for="link" class="form-label text-center">Your original Link</label>
+            <input name="link" type="text" class="form-control" placeholder="www.biglink.com/hmnrjfnrfr/cffv$" id="address_link">
+
+            <label name="slashLabel" for="slashName" class="form-label text-center mt-3">The new label for your link</label>
+            <input name="slashName" type="text" class="form-control" placeholder="workBio" id="slash_link">
+
+            <label name="titleLabel" for="tittle_link" class="form-label text-center mt-3">Give a tittle to your link</label>
+            <input name="tittle_link" type="text" class="form-control" placeholder="Biology" id="tittle_link">
+
+            <button type="button" onclick="convert()" id="submitLink" class="btn btn-outline-success mt-3">Make it Shorter</button>
+
+       
+
+        </div>
+
+   
+
+
+
+   <div class= "container" id="response">
+
+
+   </div>
+
+   <footer class="fixed-bottom p-2">&copy Raniery Mendes</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

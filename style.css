@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+body{
+
+   
+    font-family: monospace;
+}
+
+
+
+p{
+    font-size: 20px;
+
+}
+
+
+h1{
+    border-radius: 1%;
+}
+
+img{
+    max-width: 200px;
+}
+
