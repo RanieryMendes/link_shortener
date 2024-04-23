@@ -2,4 +2,4 @@
 Web Application developed using HTML, Bootstrap, CSS, and JS. It shortener links.  
 
 <br>
-![Display of my website](./landing_page.png)
+<img src="./landing_page.png" width="500" height="300">
