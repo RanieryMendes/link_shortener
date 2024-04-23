@@ -41,7 +41,7 @@ function convert(){
   "method": "POST",
   "headers": {
     "Content-Type": "application/json",
-    "apikey": "2bedad5b3d4b4befa4b1c0c0386a92ab"
+    "apikey": "e70f2fb1499d49d4a76c5512b7b8ef1e"
   },
   "body": `{\"destination\":\"${addressLink}\",\"slashtag\":\"${slashLink}\",\"title\":\"${linkTittle}\"}`
 })
